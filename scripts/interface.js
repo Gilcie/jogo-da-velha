@@ -25,6 +25,13 @@ function handleClick(event){
 
 }
 
+function resetGame(){
+    playerTime = 0;
+    gameOver = false;
+    board = ['','','','','','','','',''];
+    updateSquares();
+}
+
 function updateSquare(position){
     let square = document.getElementById(position.toString());
     let symbol = board[position];
@@ -42,7 +49,4 @@ function updateSquares(){
         }
     })
 }
-
-
-
 

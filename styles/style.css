@@ -13,11 +13,10 @@ body{
     height: 100px;
     background-color: none;
     display: inline-block;
-    border: 1px solid gray;
-   
-    
-    
+    border: 1px solid rgb(8, 175, 212); 
 }
+
+
 
 .o{
     position: relative;
@@ -53,14 +52,9 @@ body{
 
 .interface{
     margin-top: 20px;
+    font-family: 'roboto', sans-serif;
+    font-size: 20px;
+
 }
 
-.reset{
-    margin-top: 20px;
-    padding: 10px 20px;
-    background-color: #f1f1f1;
-    border: 1px solid gray;
-    border-radius: 5px;
-    cursor: pointer;
-}
 

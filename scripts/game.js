@@ -1,7 +1,6 @@
 let board = ['','','','','','','','','']
 let playerTime = 0;
 let gameOver = false;
-
 let symbols = ['o', 'x']
 
 let winStates = [
@@ -55,4 +54,3 @@ function isWin(){
 
     return false;
 }
-
