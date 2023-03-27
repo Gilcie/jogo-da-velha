@@ -13,7 +13,7 @@ body{
     height: 100px;
     background-color: none;
     display: inline-block;
-    border: 1px solid rgb(8, 175, 212); 
+    border: 2px solid rgb(8, 175, 212); 
 }
 
 
@@ -47,13 +47,6 @@ body{
     left: 0;
     right: 0;
     bottom: 0;
-
-}
-
-.interface{
-    margin-top: 20px;
-    font-family: 'roboto', sans-serif;
-    font-size: 20px;
 
 }
 
